@@ -12,7 +12,7 @@
 .sidebar {
   width: 20%;
   height: 95vh;
-  border: 1px solid black;
+  border: 1vh solid black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -227,4 +227,40 @@ li:before {
 .content_section_bot {
   height: 50%;
   background-color: #c4c4c4;
+}
+.circle {
+  background-color: white;
+  position: relative;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+}
+.circle1 {
+  background-color: silver;
+  border: 1px solid black;
+  position: absolute;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 999px;
+  /* top: 0; */
+  left: 30px;
+}
+.circle1:nth-child(2) {
+  left: 60px;
+}
+.circle1:nth-child(3) {
+  left: 90px;
+}
+.circle1:nth-child(4) {
+  left: 120px;
+}
+.circle1:nth-child(5) {
+  left: 150px;
+}
+.circle2 {
+  position: relative;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  margin: 5px;
 }
